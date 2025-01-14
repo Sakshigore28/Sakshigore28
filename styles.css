@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .question-container {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .question-container p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Updated to list alignment for options */
+  /* Ensures the list options appear vertically */
+.option-container {
+    margin-top: 20px;
+    padding-left: 20px; /* Removes default padding */
+    list-style-type: none; /* Ensures the list is numbered */
+    display: block;
+  }
+  
+  .option-container li {
+    margin-bottom: 20px; /* Adds space between each option */
+  }
+  
+  input[type="radio"] {
+    margin-right: 30px; /* Adds space between the radio button and the option text */
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    width: 30%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
